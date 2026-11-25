@@ -1,0 +1,127 @@
+
+
+body {
+    background-color: #f6d2d8;
+    color: rgb(142, 45, 45);
+    font-family: courier;
+    font-size: 20px;
+
+  }
+</style>
+
+
+h1, h2, h3 {
+    font-family: courier;
+    color: black 
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 25px;
+    background: lightcoral;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: 8px 10px 30px rgba(0, 0, 0, 1);
+    border-radius: 90px;
+  }
+</style>
+}
+
+h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+
+
+.container {
+    width: 700px;
+    margin: 20px auto;
+    max-width: 90%
+}
+
+@media (max-width: 760px) {
+    .container  {
+        width: 600px;
+    }
+}
+@media (max-width: 500px) {
+    .container  {
+        width: 400px;
+    }
+}
+
+
+.card-white {
+    background-color: #f7e4e8;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 0;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #f6d2d8;
+    color: red;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: white;
+    color: red;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 30px;
+    color: pink;
+}
+
+.list-inline i:hover {
+    font-size: 30px;
+    color: black;
+}
+
+#introduction p  {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
